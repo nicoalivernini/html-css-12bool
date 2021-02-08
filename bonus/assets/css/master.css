@@ -15,3 +15,21 @@
 .light-brown {
   background-color: rgb(253, 195, 143);
 }
+
+span {
+  line-height: 75px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.chess-black {
+  color: rgb(0, 0, 0);
+}
+
+[class^=fas]  {
+  font-size: 70px;
+}
+
+.chess-white {
+  color: white;
+}
