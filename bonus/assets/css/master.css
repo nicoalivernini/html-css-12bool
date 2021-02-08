@@ -3,3 +3,15 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.brown {
+  background-color: rgb(198, 119, 55);
+}
+
+.white {
+  background-color: rgb(255, 255, 255);
+}
+
+.light-brown {
+  background-color: rgb(253, 195, 143);
+}
