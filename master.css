@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -6,11 +6,19 @@
 
 [class*=col-] {
   background-color: rgb(233, 164, 177);
-  border: 1px solid black;
-  height: 200px;
+  padding: 10px;
 }
 
-.container {
-  text-align: center;
-  line-height: 200px;
+.col-6 > [class*=col-] {
+  background-color: rgb(233, 104, 109);
+  border: 1px solid white;
+  height: 175px;
+  padding: 10px;
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
