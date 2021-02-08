@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
-.col-1 {
+[class*=col-] {
   background-color: rgb(233, 164, 177);
+  border: 1px solid black;
+  height: 200px;
+}
+
+.container {
+  text-align: center;
+  line-height: 200px;
 }
